@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+body, html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    background:#be3144 ;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: auto;
+}
+
+#navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 300ms;
+    padding: 30px;
+}
+
+#navbar ul li:hover a{
+    background-color: rgb(164, 164, 245);
+    padding: 30px;
+}
